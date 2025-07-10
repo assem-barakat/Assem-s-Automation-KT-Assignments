@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace Automation_KT_Assignments
 {
-    public class Tests
+    public class Task_1_Tests
     {
         WebDriver driver;
         [SetUp]
@@ -14,7 +14,7 @@ namespace Automation_KT_Assignments
         }
 
         [Test]
-        public void Test1()
+        public void Topic1_Test()
         {
             
             driver.Navigate().GoToUrl("https://www.example.com");
@@ -56,7 +56,7 @@ namespace Automation_KT_Assignments
 
 
         [Test]
-        public void Test2()
+        public void Topic2_Test()
         {
             driver.Navigate().GoToUrl("https://www.facebook.com/r.php?entry_point=login");
 
